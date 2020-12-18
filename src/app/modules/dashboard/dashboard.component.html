@@ -1,0 +1,151 @@
+<div class="dashboard-wrapper" fxLayout="row" fxLayout.xs="column" fxFlexFill>
+    <div fxFlex="35" class="dashboard-column">
+        <div class="amd">
+            <div class="amd-title">
+                <div class="d-inline-block">
+                    <mat-icon aria-hidden="false" aria-label="Example home icon">hotel</mat-icon>
+                    <span class="text-title">ACCOMMODATIONS</span>
+                </div>
+                <a href="#">Click on a Title (the big name) for more info</a>
+            </div>
+            <input type="text" class="amd-location" placeholder="Bangkok, Thailand" />
+            <div class="amd-period">
+                <div class="d-inline-block">
+                    <div>
+                        <mat-icon aria-hidden="false" aria-label="Example home icon">calendar_today</mat-icon>
+                        <input type="text" name="startDate" />
+                        <input type="text" name="stateDateDay" />
+                    </div>
+                    <a href="#">CHECK IN</a> 
+                </div>
+                <div class="d-inline-block">
+                    <div>
+                        <mat-icon aria-hidden="false" aria-label="Example home icon">calendar_today</mat-icon>
+                        <input type="text" name="endDate" />
+                        <input type="text" name="endDateDay" />
+                    </div>
+                    <a href="#">CHECK OUT</a> 
+                </div>
+            </div>
+            <div class="amd-guest">
+                <label class="italic">
+                    <input type="checkbox" />
+                    no specific dates as of yet
+                </label>
+                <label>
+                    GUESTS
+                    <select name="guestCount">
+                        <option>2 Adults, 0 Children</option>
+                      </select>
+                </label>
+            </div>
+        </div>
+        <mat-tab-group color="white" mat-align-tabs="center" animationDuration="0ms">
+            <mat-tab label="Price">
+                <div class="amd-tab-1">
+                    <button class="btn btn-dark-blue">VIEW ON MAP</button>
+                    <div class="amd-location-wrapper">
+                        <div class="amd-location-item-wrapper">
+                            <img src="https://homepages.cae.wisc.edu/~ece533/images/arctichare.png" />
+                            <div>
+                                <div class="d-flex d-justify-between">
+                                    <div class="text-title">
+                                        Amber Boutique Silom
+                                        <mat-icon aria-hidden="false" aria-label="Example home icon">hotel</mat-icon>
+                                    </div>
+                                    <div>8.5</div>
+                                </div>
+        
+                                <div class="d-flex d-justify-between">
+                                    <div> Bangkok </div>
+                                    <div class="text-grey">Oct 17 21</div>
+                                </div>
+        
+                                <div>
+                                    <div class="text-grey"> Free wifi, Fitness center, Breakfast included Non, Smooking Room, AC. </div>
+                                </div>
+        
+                                <div class="d-flex d-justify-between">
+                                    <div> $29 USD per night </div>
+                                    <div>
+                                        <button class="btn btn-blue"> ADD TO CART </button>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </mat-tab>
+            <mat-tab label="Rating">
+                
+            </mat-tab>
+            <mat-tab label="Star">
+                
+            </mat-tab>
+            <mat-tab label="Location">
+                
+            </mat-tab>
+        </mat-tab-group>
+    </div>
+    <div fxFlex="40" class="dashboard-column">
+        <div class="d-flex d-justify-between">
+            <div class="d-flex d-align-center">
+                <span class="text-title">Amber Boutique Silom</span>
+                <mat-icon aria-hidden="false" aria-label="Example home icon">hotel</mat-icon>
+            </div>
+            <button class="btn btn-blue">ADD TO CART</button>
+        </div>
+        <div class="d-flex d-justify-between">
+            <div>
+                <span> 200 Soi Silom 14, Suriyawang, Bang Tak, 10500 Bangkok Tailland 
+                </span>
+                <span class="badge">VIEW ON MAP</span>
+            </div>
+            <div>8.5</div>
+        </div>
+        <div class="image-gallery">
+            <img src="https://homepages.cae.wisc.edu/~ece533/images/arctichare.png" />
+        </div>
+        <div>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+    </div>
+    <div fxFlex="25" class="dashboard-column">
+        <div class="text-title d-flex d-align-center">
+            <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+            <div>San Francisco, CA, USA</div>
+        </div>
+        <div class="selected-trip d-flex">
+            <mat-icon aria-hidden="false" aria-label="Example home icon">airplanemode_active</mat-icon>
+            <div>
+                <div class="d-flex d-justify-between">
+                    <div class="text-title text-pink">China Aireline</div>
+                    <div>-2 tickets +</div>
+                </div>
+                <div class="selected-trip-date">
+                    Oct 15, 01:40(SFO) -> Oct 17 00:35(BKK)
+                </div>
+            </div>
+        </div>
+        <div class="text-title d-flex d-align-center">
+            <mat-icon aria-hidden="false" aria-label="Example home icon">place</mat-icon>
+            <div>Bangkok, Tailland</div>
+        </div>
+        <button class="btn btn-blue">
+            <mat-icon aria-hidden="false" aria-label="Example home icon">add</mat-icon>
+        </button>
+        <div class="trip-checkout-wrapper">
+            <div class="d-inline-block">
+                <div class="d-flex d-align-center">
+                    <span class="badge badge-circle">?</span>
+                    <div>Help</div>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-grey d-inline-block">$960</button>
+                <button class="btn btn-pink d-inline-block">TRIP CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+</div>

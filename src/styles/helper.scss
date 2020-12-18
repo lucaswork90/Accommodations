@@ -1,0 +1,102 @@
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.d-block  {
+    display: block !important;
+}
+
+.text-title {
+    font-size: $font-size-title;
+    @media screen and (max-width: 768px) {
+        font-size: $font-size-title-mobile;
+    }
+}
+
+.text-body {
+    font-size: $font-size-small;
+    @media screen and (max-width: 768px) {
+        font-size: $font-size-small-mobile;
+    }
+}
+
+.text-label {
+    font-size: 24px;
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+.text-label-body {
+    font-size: 12px;
+    @media screen and (max-width: 768px) {
+        font-size: 11px;
+    }
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-pink {
+    color: pink;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.d-justify-center {
+    justify-content: center;
+}
+
+.d-justify-between {
+    justify-content: space-between;
+}
+
+.d-align-center {
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 3px;
+    outline: none;
+    &.btn-dark-blue {
+        background: darkblue;
+    }
+    &.btn-blue {
+        background: lightblue;
+    }
+    &.btn-pink {
+        background-color: pink;
+    }
+    &.btn-grey {
+        background-color: grey;
+    }
+}
+
+.badge {
+    background: #777777;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    &.badge-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
