@@ -1,0 +1,62 @@
+<ng-container>
+    <div class="amd">
+        <div class="amd-title">
+            <div class="d-inline-block">
+                <mat-icon aria-hidden="false" aria-label="Example home icon">hotel</mat-icon>
+                <span class="text-title">ACCOMMODATIONS</span>
+            </div>
+            <a href="#">Click on a Title (the big name) for more info</a>
+        </div>
+        <input type="text" class="amd-location" placeholder="Bangkok, Thailand" />
+        <div class="amd-period">
+            <div class="d-inline-block">
+                <div>
+                    <mat-icon aria-hidden="false" aria-label="Example home icon">calendar_today</mat-icon>
+                    <input type="text" name="startDate" />
+                    <input type="text" name="stateDateDay" />
+                </div>
+                <a href="#">CHECK IN</a> 
+            </div>
+            <div class="d-inline-block">
+                <div>
+                    <mat-icon aria-hidden="false" aria-label="Example home icon">calendar_today</mat-icon>
+                    <input type="text" name="endDate" />
+                    <input type="text" name="endDateDay" />
+                </div>
+                <a href="#">CHECK OUT</a> 
+            </div>
+        </div>
+        <div class="amd-guest">
+            <label class="italic">
+                <input type="checkbox" />
+                no specific dates as of yet
+            </label>
+            <label>
+                GUESTS
+                <select name="guestCount">
+                    <option>2 Adults, 0 Children</option>
+                  </select>
+            </label>
+        </div>
+    </div>
+    <mat-tab-group color="white" mat-align-tabs="center" animationDuration="0ms">
+        <mat-tab label="Price">
+            <div class="amd-tab-1">
+                <button class="btn btn-dark-blue">VIEW ON MAP</button>
+                <div class="amd-suggestion-wrapper">
+                    <dashboard-accommodation-item *ngFor="let accommodation of accommodations" [amd]="accommodation">
+                    </dashboard-accommodation-item>
+                </div>
+            </div>
+        </mat-tab>
+        <mat-tab label="Rating">
+            
+        </mat-tab>
+        <mat-tab label="Star">
+            
+        </mat-tab>
+        <mat-tab label="Location">
+            
+        </mat-tab>
+    </mat-tab-group>
+</ng-container>

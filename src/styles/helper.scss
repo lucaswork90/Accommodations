@@ -78,13 +78,16 @@
         background: darkblue;
     }
     &.btn-blue {
-        background: lightblue;
+        background: lightskyblue;
     }
     &.btn-pink {
         background-color: pink;
     }
     &.btn-grey {
         background-color: grey;
+    }
+    &:hover {
+        cursor: pointer;
     }
 }
 

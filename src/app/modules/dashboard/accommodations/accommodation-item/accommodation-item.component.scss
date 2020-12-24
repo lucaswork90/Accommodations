@@ -1,0 +1,26 @@
+.amd-suggestion-item-wrapper {
+  padding: 20px 20px 20px 70px;
+  display: flex;
+  align-items: center;
+  &:hover {
+    background: #e2e2e2;
+  }
+  & > img {
+    width: 150px;
+    height: 150px;
+  }
+  & > div {
+    display: flex;
+    flex-grow: 100;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    height: 150px;
+    & > div > div {
+      max-width: 300px;
+      div {
+        margin-right: 10px;
+      }
+    }
+  }
+}

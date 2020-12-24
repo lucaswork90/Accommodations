@@ -1,0 +1,29 @@
+<div class="amd-suggestion-item-wrapper">
+    <img src="{{amd.thumbnail}}" />
+    <div>
+        <div class="d-flex d-justify-between">
+            <div class="text-title d-flex d-align-center">
+                <div>{{amd.title}}</div>
+                <mat-icon aria-hidden="false" aria-label="Example home icon">hotel</mat-icon>
+            </div>
+            <div>{{amd.rating}}</div>
+        </div>
+
+        <div class="d-flex d-justify-between">
+            <div> {{amd.location}} </div>
+            <div class="text-grey">{{amd.date}}</div>
+        </div>
+
+        <div>
+            <div class="text-grey"> {{amd.description}} </div>
+        </div>
+
+        <div class="d-flex d-justify-between">
+            <div class="text-pink"> ${{amd.pricePerNight}} USD per night </div>
+            <div>
+                <button class="btn btn-blue"> ADD TO CART </button>
+            </div>
+        </div>
+
+    </div>
+</div>

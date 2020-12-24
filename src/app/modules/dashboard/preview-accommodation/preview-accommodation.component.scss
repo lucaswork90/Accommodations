@@ -1,0 +1,23 @@
+.preview-header {
+    div {
+        display: flex;
+        align-items: center;
+        .mat-icon {
+        margin-left: 10px;
+        }
+    }
+}
+.preview-description {
+    margin-top: 10px;
+    .badge {
+        margin-left: 10px;
+    }
+}
+.image-gallery {
+    margin-top: 20px;
+    margin-bottom: 20x;
+    img {
+        object-fit: cover;
+        width: 100%;
+    }
+}
